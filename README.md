@@ -11,6 +11,8 @@ This project implements a batch-processing-based data architecture for a machine
 - Docker: Containerizes all components for isolated and consistent environments.
 - Terraform: Implements Infrastructure as Code (IaC) for reproducible setups.
 
+[Architecture](https://github.com/harini-murugesan30/Batch-Processing/blob/main/Architecture_Diagram.png)
+
 ## Dataset
 
 The dataset used is the Sentiment140 dataset (https://www.kaggle.com/datasets/kazanova/sentiment140), containing 1.6 million tweets.
