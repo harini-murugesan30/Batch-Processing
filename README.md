@@ -23,36 +23,33 @@ The dataset used is the Sentiment140 dataset (https://www.kaggle.com/datasets/ka
 
 1. Docker: Install Docker from https://www.docker.com/get-started.
 2. Terraform: Install Terraform from https://www.terraform.io/downloads.html.
-3. Kaggle API: Set up Kaggle API credentials (username and key).
+3. Kaggle API: Set up Kaggle API credentials (username and key) by following the instructions [here](https://www.kaggle.com/docs/api).
 
 ### Step 1: Clone the Repository
 
+```bash
 git clone [<your-repository-url>](https://github.com/harini-murugesan30/Batch-Processing)
 cd Batch-Processing
 
-### Step 2: Set Up Terraform
+### Step 2:Set Up Environment Variables
 
-1. Navigate to the terraform directory:
+1. Create a .env file in the root directory of the project.
 
    ```bash
    cd terraform
 
-3. Initialize Terraform:
+2. Add your Kaggle credentials to the .env file::
 
    ```bash
-   terraform init
-
-4. Apply the Terraform configuration to deploy the infrastructure:
-
-   ```bash
-   terraform apply
+   KAGGLE_USERNAME=your_kaggle_username
+   KAGGLE_KEY=your_kaggle_key
 
 ### Step 3: Start the System
 
-1. Start the Docker containers using Terraform:
+1. Start the Docker containers using Docker Compose:
    
    ```bash
-   terraform apply
+   docker-compose up -d
 
 3. Leave HDFS safe mode:
 
