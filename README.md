@@ -27,7 +27,6 @@ The dataset used is the Sentiment140 dataset (https://www.kaggle.com/datasets/ka
 
 ### Step 1: Clone the Repository
 
-   ```bash
    git clone [<your-repository-url>](https://github.com/harini-murugesan30/Batch-Processing)
    cd Batch-Processing
 
