@@ -30,7 +30,7 @@ The dataset used is the Sentiment140 dataset (https://www.kaggle.com/datasets/ka
    git clone [<your-repository-url>](https://github.com/harini-murugesan30/Batch-Processing)
    cd Batch-Processing
 
-### Step 2:Set Up Environment Variables
+### Step 2: Set Up Environment Variables
 
 1. Create a .env file in the root directory of the project.
 
