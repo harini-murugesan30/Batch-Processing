@@ -26,17 +26,13 @@ The dataset used is the Sentiment140 dataset (https://www.kaggle.com/datasets/ka
 3. Kaggle API: Set up Kaggle API credentials (username and key) by following the instructions [here](https://www.kaggle.com/docs/api).
 
 ### Step 1: Clone the Repository
-
-   git clone [<your-repository-url>](https://github.com/harini-murugesan30/Batch-Processing)
-   cd Batch-Processing
+      
+      git clone https://github.com/harini-murugesan30/Batch-Processing.git
+      cd Batch-Processing
 
 ### Step 2: Set Up Environment Variables
 
 1. Create a .env file in the root directory of the project.
-
-   ```bash
-   cd terraform
-
 2. Add your Kaggle credentials to the .env file::
 
    ```bash
